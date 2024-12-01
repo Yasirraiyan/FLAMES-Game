@@ -20,8 +20,15 @@ length = len(common_elements)
 
 print("Common elements:", common_elements)
 print("Number of common elements:", length)
+def valid:
+if length>=1 and length<=6:
+    print("Valid length")
+else:
+    print("Invalid length")
 
 # Determine the relationship based on the number of common elements
+def find_relation:
+if valid:
 if length == 1:
     print("Friend")
 elif length == 2:
